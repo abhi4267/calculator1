@@ -1,0 +1,100 @@
+
+body {
+    background-image: url("pexels-hasan-albari-1229861.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 15px;
+    border-radius: 1em;
+    height: 450px;
+    width: 350px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(231, 0, 0, 0.71) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  .button:hover {background-color: #13b1c2be}
+
+  .button:active {
+    background-color: #30f633;
+    box-shadow: 0 5px #8ed513;
+    transform: translateY(4px);
+  }
+  .button {
+    
+    width: 66px;
+    padding:20px ;
+    margin: 0 3px;
+    border :2px solid rgb(21, 190, 190);
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(153, 158, 43);
+  }
+  
+  .row {
+    
+    margin: 8px 0;
+  }
+  .row input {
+    font-family: 'Times New Roman', Times, serif;
+    text-align:end;
+    width: 222px;
+    font-size: 30px;
+    margin: 0;
+    padding: 15px 0;
+    border: 2px solid rgba(25, 218, 141, 0.964);
+    border-radius: 7px;
+  }
+  .text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(234, 37, 11);
+  }
+  .bg-red{
+    background-color: red;
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex {
+  display: flex;
+  }
+  .flex-col{
+    flex-direction: column;
+  }
+  .items-center{
+    align-items: center;
+  }
+  
+  .clear{
+    background-color: rgb(189, 62, 62);
+    border-radius: 50px;
+  }
+  .equal{
+    background-color: rgb(46, 228, 10);
+  }
+  
+  .operation{
+    background-color: rgb(23, 164, 219);
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 65px;   /* Height of the footer */
+    background: rgb(233, 10, 117);
+  }
+  footer p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
